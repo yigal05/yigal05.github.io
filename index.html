@@ -18,11 +18,26 @@
                 border-radius: 50%; /* Hace la imagen circular */
                 box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Sombra suave */
                 transition: all 0.3s ease; /* Transición suave para el efecto hover */
+                filter: grayscale(20%) blur(1px); /* Efecto de suavizado: 20% blanco y negro y un ligero desenfoque */
             }
 
             .profile-img:hover {
                 box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3); /* Sombra ligeramente más grande al pasar el ratón */
                 transform: translateY(-5px); /* Levanta la imagen un poco al pasar el ratón */
+                filter: grayscale(0%) blur(0px); /* Quita el filtro al pasar el ratón */
+            }
+
+            body {
+                background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); /* Degradado suave para el fondo */
+                background-attachment: fixed; /* Mantiene el fondo fijo al hacer scroll */
+            }
+
+            .profile {
+                background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para el contenedor de la imagen */
+                backdrop-filter: blur(10px); /* Efecto de desenfoque en el fondo del contenedor */
+                border-radius: 15px; /* Bordes redondeados para el contenedor */
+                padding: 20px; /* Espaciado interno */
+                box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); /* Sombra suave para el contenedor */
             }
         </style>
     </head>
@@ -85,7 +100,7 @@
                                                 <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262 C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
                                             </g>
                                         </svg>
-                                        </div>
+                                    </div>
                                     <div class="dots-2">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
                                             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
@@ -111,7 +126,7 @@
                                                 <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262 C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
                                             </g>
                                         </svg>
-                                        </div>
+                                    </div>
                                     <div class="dots-3">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
                                             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
@@ -137,7 +152,7 @@
                                                 <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262 C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
                                             </g>
                                         </svg>
-                                        </div>
+                                    </div>
                                     <div class="dots-4">
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
                                             <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)">
@@ -163,7 +178,7 @@
                                                 <path d="M1507.7,1268.6c-105-35-200-141-222-248c-43-206,163-412,369-369c155,32,275,190,260,339c-11,105-90,213-190,262 C1663.7,1281.6,1569.7,1288.6,1507.7,1268.6z"></path>
                                             </g>
                                         </svg>
-                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
